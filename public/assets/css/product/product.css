@@ -1,0 +1,192 @@
+.headerImg img{
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+
+.layer1{
+    margin-left: 80px;
+}
+.layer1 h1{
+    margin-bottom: 2%;
+}
+.layer1 .flex{
+    color: rgb(143, 143, 143);
+    font-size: 22px;
+    display: flex;
+
+}
+
+/*CSS cho product*/
+.product_wrapper-total{
+	display: flex;
+}
+.product_wrapper{
+    margin-left: auto;
+    margin-right: auto;
+}
+.product_top{
+	margin-top: 3%;
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+	margin-left: auto;
+	margin-right: auto;	
+}
+.product_top a{
+	padding: 15px;
+}
+.product_top div{
+	margin-bottom: 4%;
+	flex-basis:24%;
+	box-sizing: border-box;
+}
+.product_info img{
+	max-width: 100%;
+	height:auto;
+	display:block;
+}
+.product_top .product_info .product_addToCard{
+	background-color: rgb(244, 244, 244);
+	color: black;
+	text-decoration: none;
+	padding: 15px 45px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 15px;
+	opacity: 0; 
+	transition: opacity 0.3s ease-in-out;
+	position: absolute;
+    width:100%;
+	top:65%;
+    transform: translate(-50%, -50%);/* Dịch chữ chiều ngang và dọc */
+	
+}
+.product_info:hover .product_addToCard {
+	opacity: 1;
+}
+.product_top .product_info .product_addToCard:hover{
+	background-color:black;
+	color:white;
+}
+.product_ref_kind {
+    text-decoration: none;
+    font-family: arial;
+    font-weight: lighter;
+	font-size:13px;
+	color:grey;
+}
+.product_ref_name{
+	text-decoration: none;
+    font-style:normal;
+	font-size:17px;
+	color: black;
+	font-weight: normal;
+}
+.product_font_price{
+	font-size:17px;
+	margin-top:10px;
+    margin-bottom: 8%;
+}
+.product_font_price_discount{
+	font-size:13px;
+}
+.product_highlight {
+	position: relative;
+	overflow: hidden;
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+ .product_highlight:hover {
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.product_image_discount{
+	text-decoration: none;
+	border-radius: 150px;
+	background-color: red;
+	color: white;
+	padding: 8px;
+	font-family: Tahoma;
+	position:absolute;
+	top:5%;
+	left: 5%;
+	font-size:16px;
+}
+
+/*CSS cho filter*/
+.ap-filter__category-open-button {
+	background-color: rgb(243, 243, 243);
+	border: none;
+	cursor: pointer;
+	margin-left: 2px;
+	font-size: 16px;
+	font-family: 'Times New Roman', Times, serif;
+    padding: 25px;
+}
+
+.filter-format{
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	margin-bottom: 0px;
+}
+.filter-bar{
+	display: flex;
+	align-items: center;
+	width: 90%;
+	background: #fff;
+	border-bottom: 1px solid rgb(42, 41, 41);
+	padding: 10px;	
+}
+.option-content {
+	display: none;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	background: rgba(255, 255, 255, 0.9);
+	border-bottom: 1px solid rgb(42, 41, 41);
+	width: 100%;
+}
+.filter-format-option{
+	display: flex;
+	justify-content: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.filter-bar-option{	
+	width: 90%;
+}
+.flex-row {
+	display: flex;
+	justify-content: start;
+}
+.filter-option-right{
+	margin-right: 150px;
+}
+.image-filter-container {
+	display: flex;
+	margin-top: 30px;
+	align-items: left;
+}
+.image-filter-collection-item{
+	margin-right: 5px;
+	
+}
+.image-filter-collection{
+	height: 90%;
+	width: 100%;
+}
+.div-left{
+	
+	float: left;
+	text-align: left;
+}
+.complication-text-item{
+	height: 60px;
+	width: 300px;
+}.image-filter-material{
+	height: 75%;
+	width: 80%;
+}
