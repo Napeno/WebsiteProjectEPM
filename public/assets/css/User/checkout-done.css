@@ -1,0 +1,31 @@
+.complete-page {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.complete-info-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.order-lists {
+}
+.order-item {
+    padding: 10px 0;
+}
+.complete-info-banking {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.complete-info-customer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.orders {
+    border: 1px solid #cdcdcd;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    padding: 20px;
+}

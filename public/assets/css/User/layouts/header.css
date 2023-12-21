@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+header {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    /* text-align: center; */
+    background: white;
+    z-index: 99;
+    transition: all 300ms ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px;
+}
+.navbar .menu {
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .menu li {
+    list-style: none;
+}
+
+.navbar .menu li a {
+    text-decoration: none;
+    /* font-size: 20px; */
+}
+
+.navbar .menu li a:visited {
+    color: black;
+}
+
+.navbar .menu li a:hover {
+    color: gray;
+}
+a {
+    text-decoration: none;
+}
+.d {
+    float: left;
+    overflow: hidden;
+    margin-left: 60px;
+}
+.d .d-btn {
+    font-size: 14px;
+    font-weight: lighter;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 40px 0px;
+    background: inherit;
+}
+.d-content {
+    display: none;
+    position: absolute;
+    background: #f9f9f9;
+    width: 100%;
+    left: 0;
+    z-index: 10;
+}
+.d:hover .d-content {
+    display: block;
+}
+.row {
+    display: flex;
+}
+.row .column {
+    border-right: 2px solid #000000;
+    padding: 4%;
+    height: 400px;
+    width: 30%;
+}
+.row .row-content {
+    width: 100%;
+}
+.row .tabcontent {
+    width: 90%;
+    margin-top: 6%;
+    margin-left: 2%;
+    padding: 0px 12px;
+    border-left: none;
+    display: none;
+}
+#watch {
+    flex-wrap: wrap;
+}
+.row .tabcontent-watch {
+    align-items: center;
+    margin-left: 8%;
+    text-align: center;
+    margin-bottom: 8%;
+}
+.row .tabcontent-all {
+    margin-left: 8%;
+}
+.row .tabcontent-accessories {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40%;
+}
+.row .tabcontent-watch img {
+    margin-bottom: 10%;
+    background-color: rgb(231, 231, 231);
+    border-radius: 40px;
+}
+#leather {
+    align-items: center;
+}
+.row #leather .leather-content {
+    margin-top: 4%;
+    margin-left: 6%;
+    width: 40%;
+}
+.row #leather .leather-content p {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    margin-bottom: 8%;
+}
+.row #leather .leather-content button {
+    font-size: 16px;
+    color: white;
+    background-color: #000000;
+    width: 42%;
+    height: 48px;
+    cursor: pointer;
+}
+.column h3 {
+    margin-left: 20%;
+    width: 80%;
+    margin-bottom: 10%;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.d2-content {
+    display: none;
+    position: absolute;
+    background: #f9f9f9;
+    width: 10%;
+    left: 16.6%;
+    z-index: 10;
+}
+.d:hover .d2-content {
+    display: block;
+}
+.column2 {
+    height: 120px;
+    text-align: center;
+    align-items: center;
+}
+.column2 h3 {
+    padding-top: 10px;
+}
+
+.nav-img {
+    margin-left: 330px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cart {
+    margin-left: 32%;
+    margin-top: 3%;
+}
+.cart a:hover {
+    color: black;
+}
+.cart-align {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.cart-align img {
+    margin-left: 20px;
+}
+.user {
+    margin-left: 7%;
+    margin-top: 3%;
+}
+
+.scroll-down header {
+    transform: translate3d(0, -100%, 0);
+}
+
+.scroll-up header {
+    filter: drop-shadow(0 -10px 20px rgb(170, 170, 170));
+}
+
+/* Giỏ hàng */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+}
+.sidebar p {
+    /* padding: 8px 8px 8px 32px; */
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+.sidebar-product p {
+    color: black;
+}
+.sidebar-header a {
+    color: white;
+}
+.sidebar-shipping a {
+    color: white;
+}
+.sidebar a:hover {
+    color: rgb(150, 13, 13);
+}
+
+.sidebar-shipping {
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 42px;
+}
+.sidebar-product {
+    margin-top: 6%;
+    margin-left: 4%;
+}
+.product01 {
+    height: 90px;
+    display: flex;
+    margin-bottom: 12%;
+}
+#myform {
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    margin-top: 30%;
+}
+.qty {
+    width: 40px;
+    height: 25px;
+    text-align: center;
+}
+input.qtyplus {
+    width: 25px;
+    height: 25px;
+}
+input.qtyminus {
+    width: 25px;
+    height: 25px;
+}
+.pd01 button {
+    background-color: rgb(238, 238, 238);
+    color: black;
+    position: absolute;
+    border: none;
+    padding: 3px 6px 3px 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.sidebar-product .pd01 img {
+    margin-left: 22%;
+}
+.sidebar-product .pd02 {
+    margin-left: 10%;
+    letter-spacing: 1px;
+}
+.sidebar-product .pd03 {
+    margin-left: 10%;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.sidebar-total {
+    margin-top: 45%;
+}
+.sidebar-total-content {
+    text-align: center;
+    margin-top: 8%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sidebar-total-content p {
+    font-size: 16px;
+}
+.sidebar-total-purchase button {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    border: none;
+    padding: 20px;
+    background-color: rgb(0, 183, 79);
+    cursor: pointer;
+}
+
+.product-close {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.971);
+    width: 100%;
+    height: 14%;
+    text-align: center;
+    animation: fadeIn 0.5s;
+}
+.product-close h3 {
+    margin-top: 4%;
+    font-size: 16px;
+    font-weight: 600;
+}
+.product-close button {
+    letter-spacing: 1px;
+    border: none;
+    margin: 0px 10px 0px 10px;
+    cursor: pointer;
+}
+.product-close .bt01 {
+    padding: 5px 15px 5px 15px;
+    background-color: black;
+    color: white;
+}
+.product-close .bt02 {
+    background: none;
+    text-decoration: underline;
+}
